@@ -26,16 +26,18 @@ LangGraph-Debate-System/
 ├── app/
 │   ├── api/
 │   │   └── v1/
-│   │       └── debate.py            # FastAPI endpoint logic
-│   ├── graph.py                     # LangGraph moral workflow graph
+│   │       └── debate.py           # FastAPI endpoint logic
+│   ├── graph.py                    # LangGraph moral workflow graph
 │   ├── llm/
-│   │   └── agents/                  # Agent implementations (neuro, psych, socio, evobio, arbiter)
+│   │   └── agents/                 # Agent implementations (neuro, psych, socio, evobio, arbiter)
 │   ├── prompts/
-│   │   └── prompt.yml               # YAML-formatted prompt templates
+│   │   └── prompt.yml              # YAML-formatted prompt templates
 │   └── schemas/
-│       └── schemas.py               # Pydantic request/response models
-├── app.py                  # Streamlit UI interface
-├── .env                             # OpenAI API key (user-provided)
+│       └── schemas.py              # Pydantic request/response models
+│   ├── utils/
+│   │   └── get_prompt.py           # Helper function
+├── app.py                          # Streamlit UI interface
+├── .env                            # OpenAI API key (user-provided)
 ├── requirements.txt
 ├── main.py                         
 └── README.md
