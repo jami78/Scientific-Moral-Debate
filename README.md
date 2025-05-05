@@ -32,8 +32,8 @@ LangGraph-Debate-System/
 │   │   └── agents/                 # Agent implementations (neuro, psych, socio, evobio, arbiter)
 │   ├── prompts/
 │   │   └── prompt.yml              # YAML-formatted prompt templates
-│   └── schemas/
-│       └── schemas.py              # Pydantic request/response models
+│   ├── schemas/
+│   |   └── schemas.py              # Pydantic request/response models
 │   ├── utils/
 │   │   └── get_prompt.py           # Helper function
 ├── app.py                          # Streamlit UI interface
