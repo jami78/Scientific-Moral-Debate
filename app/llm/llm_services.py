@@ -1,5 +1,4 @@
 from langchain_openai import ChatOpenAI
-import os
 from app.config import get_settings
 settings = get_settings()
 
