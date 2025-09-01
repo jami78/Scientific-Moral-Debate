@@ -1,24 +1,24 @@
-# Scientific-Moral-Debate
+# CogniAlign-Moral-Debate
 
 
-# 🧭 AI Moral Debate System
+# AI Moral Debate System
 
 This is a multi-agent moral reasoning framework built using **LangGraph**, **FastAPI**, and **Streamlit**. It simulates expert agents — Neuroscientist, Psychologist, Sociologist, and Evolutionary Biologist — debating ethical dilemmas based on their disciplines, unified by a metric of **survivability**. An **Arbiter** agent then synthesizes the final conclusion.
 
 ---
 
-## 🔍 Features
+## Features
 
-- 🧠 Scientific agents with autonomous domain-based reasoning
-- 🧬 Multi-round debates: Argument → Rebuttal → Judgment
-- ⚖️ Survivability-focused moral framework
-- 🌐 RESTful API (FastAPI)
-- 🖥️ Interactive web UI (Streamlit)
-- 🧩 Modular, testable architecture
+- Scientific agents with autonomous domain-based reasoning
+- Multi-round debates: Argument → Rebuttal → Judgment
+- Survivability-focused moral framework
+- RESTful API (FastAPI)
+- Interactive web UI (Streamlit)
+- Modular, testable architecture
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -39,7 +39,11 @@ LangGraph-Debate-System/
 ├── app.py                          # Streamlit UI interface
 ├── .env                            # OpenAI API key (user-provided)
 ├── requirements.txt
-├── main.py                         
+├── main.py
+├──results/
+│   ├── demonstration_cases.csv
+│   ├── ordinary_cases.csv
+|   ├── batteryiii_trolley.csv
 └── README.md
 
 ````
@@ -78,9 +82,9 @@ OPENAI_API_KEY=your-openai-key-here
 
 ---
 
-## 🚀 How to Run the System
+## How to Run the System
 
-### ✅ Step 1: Start the FastAPI Backend
+### Step 1: Start the FastAPI Backend
 
 ```bash
 uvicorn main:app --reload
@@ -90,7 +94,7 @@ This will host the backend at [http://localhost:8000](http://localhost:8000). Yo
 
 ---
 
-### 🧠 Step 2: Launch the Streamlit Interface
+### Step 2: Launch the Streamlit Interface
 
 In a separate terminal:
 
@@ -114,7 +118,7 @@ Each agent generates:
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * [LangGraph](https://github.com/langchain-ai/langgraph)
 * [LangChain](https://www.langchain.com/)
