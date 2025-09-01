@@ -50,7 +50,7 @@ LangGraph-Debate-System/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -106,7 +106,7 @@ Then open: [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🧪 Example Dilemma
+## Example Dilemma
 
 > "Should a mother lie to protect her son from religious persecution?"
 
