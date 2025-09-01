@@ -1,8 +1,5 @@
 # CogniAlign-Moral-Debate
 
-
-# AI Moral Debate System
-
 This is a multi-agent moral reasoning framework built using **LangGraph**, **FastAPI**, and **Streamlit**. It simulates expert agents — Neuroscientist, Psychologist, Sociologist, and Evolutionary Biologist — debating ethical dilemmas based on their disciplines, unified by a metric of **survivability**. An **Arbiter** agent then synthesizes the final conclusion.
 
 ---
