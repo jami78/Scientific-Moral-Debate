@@ -40,7 +40,7 @@ LangGraph-Debate-System/
 ├── .env                            # OpenAI API key (user-provided)
 ├── requirements.txt
 ├── main.py
-├──results/                        #System output on various moral cases
+├── results/                        #System output on various moral cases
 │   ├── demonstration_cases.csv
 │   ├── ordinary_cases.csv
 |   ├── batteryiii_trolley.csv
