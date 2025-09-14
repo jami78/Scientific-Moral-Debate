@@ -7,7 +7,7 @@ This is a multi-agent moral reasoning framework built using **LangGraph**, **Fas
 ## Features
 
 - Scientific agents with autonomous domain-based reasoning
-- Multi-round debates: Argument → Rebuttal → Judgment
+- Single-round deliberation: Argument → Rebuttal → Judgment
 - Survivability-focused moral framework
 - RESTful API (FastAPI)
 - Interactive web UI (Streamlit)
